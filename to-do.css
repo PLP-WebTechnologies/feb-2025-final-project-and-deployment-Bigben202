@@ -1,0 +1,44 @@
+body{
+   background-color:white; 
+margin: 0 10% 0 10%;
+}
+
+
+#to-do{
+    
+    background-color: lavender; 
+    height: 100vh;
+    text-align: center;
+ 
+    border-radius: 10%;
+    
+}
+#note{
+    text-align: start;
+    display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-wrap: wrap;
+        line-break: anywhere;
+        margin-top: 20px;
+}
+
+.close{
+    background-color: rgb(194, 190, 190);
+    text-align: end;
+    float: right;
+    padding: 2px 5px;
+    padding-bottom: 1px;
+}
+#my-ol li{
+    margin-top: 5px;
+}
+.close:hover {
+    background-color:rgb(156, 156, 156);
+}
+.close:active{
+    background-color: red;
+}
+#my-ol li:hover{
+    background-color: rgb(210, 210, 247);
+}
